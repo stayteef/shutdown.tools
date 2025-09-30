@@ -12,3 +12,5 @@ theme:
     - scheme: slate
       primary: deep orange
       accent: lime
+extra_css:
+  - assets/stylesheets/custom.css

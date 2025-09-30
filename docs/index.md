@@ -24,15 +24,22 @@ A collection of tools, websites, strategies that could be used by HRDs, journali
 
 ## Archiving & Secure Storage
 - [**Tella**](https://tella-app.org/) 
-    Take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app, to prevent authorities from finding photos or videos on phone album. 
-    - 
+
+    - Take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app, to prevent authorities from finding photos or videos on phone album. 
+    - <img src="icons/ios.png" alt="iOS" class="tiny-icon" /> 
+<img src="icons/android.png" alt="Android" class="tiny-icon" />
+
+
+ 
 - [**ExifEraser**](https://github.com/Tommy-Geenexus/exif-eraser) - **Lorem Ipsum**.
 - [**Save (Open Archive)**](#) - **Lorem Ipsum**.
 
 ## Browser
-- [**Ceno Browser**](#) - 
+- [**Ceno Browser**](https://ceno.app/en/index.html) 
     - Ceno Browser is a mobile web browser that uses peer-to-peer (P2P) technology to share and cache websites among users, allowing access to information even during internet shutdowns or in restricted regions. 
     - Android, Windows
+    - <span style="color:red; font-style:italic;">As this tool utilizes BitTorrent technology, please be aware that your IP address may be exposed to other users on the network, including potential monitoring by government agencies.</span>
+    - <img src="icons/ios.png" alt="iOS" class="tiny-icon" /> <img src="icons/android.png" alt="Android" class="tiny-icon" /> <img src="icons/microsoft.png" alt="microsoft" class="tiny-icon" />
 
 - [**Tor**](#) - **Lorem Ipsum**.
 - [**Orbot**](https://ente.io/about) - **Lorem Ipsum**.
