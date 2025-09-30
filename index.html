@@ -1,0 +1,720 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
+    
+    
+      
+        <title>Shutdown.Tools</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#shutdown-tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Shutdown.Tools" class="md-header__button md-logo" aria-label="Shutdown.Tools" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Shutdown.Tools
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="lime"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Shutdown.Tools" class="md-nav__button md-logo" aria-label="Shutdown.Tools" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Shutdown.Tools
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#alternative-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternative Internet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app-store" class="md-nav__link">
+    <span class="md-ellipsis">
+      App Store
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archiving-secure-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Archiving &amp; Secure Storage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browser
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Content Distribution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-sharing" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Sharing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#media-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Media Authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mesh-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mesh Network
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-removal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata Removal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#offline-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Offline Communication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#offline-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Offline Map
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#p2p-app-sharing" class="md-nav__link">
+    <span class="md-ellipsis">
+      P2P App Sharing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#p2p-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      P2P Communication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sms-encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      SMS Encryption
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steganography-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steganography Tool
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpn" class="md-nav__link">
+    <span class="md-ellipsis">
+      VPN
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eyewitness-to-atrocities" class="md-nav__link">
+    <span class="md-ellipsis">
+      EyeWitness to Atrocities
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="shutdown-tools">Shutdown Tools</h1>
+<p>A collection of tools, websites, strategies that could be used by HRDs, journalists, and anyone, during internet outages. If you would like to help in categorising these projects, please submit a pull request to this file.</p>
+<hr />
+<h2 id="alternative-internet">Alternative Internet</h2>
+<ul>
+<li>
+<p><a href="#"><strong>E-SIM</strong></a> - Using an eSIM allows you to activate a foreign mobile data plan without needing to insert a physical card into your device. It enables you to switch between different mobile networks and access alternative providers that may still be operational, ensuring connectivity even when local networks are restricted. However, it may not be a good solution in areas with complete network outages or where all providers are affected.</p>
+</li>
+<li>
+<p><a href="https://www.kali.org/tools/iodine/"><strong>Iodine</strong></a> - This is a piece of software that lets you tunnel IPv4 data through a DNS server. This can be usable in different situations where internet access is firewalled, but DNS queries are allowed.</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Satellite_Internet_access"><strong>Satellite Internet</strong></a></p>
+<p>There are a few satellite internet providers on the market. When making a decision, consider factors such as usability, legality, cost, and latency. Please be aware of the <a href="https://satellitesafety.openinternetproject.org/">risks associated with satellite internet</a>). If you prefer not to be detected while using satellite internet, be cautious of RF emissions and unplug the device when not in use.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Speed Range</th>
+<th>Starting Monthly Cost</th>
+<th>Regular Monthly Cost</th>
+<th>Contract</th>
+<th>Monthly Equipment Costs</th>
+<th>Data Cap</th>
+<th>Owned By</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hughesnet</td>
+<td>25-100 Mbps download, 5 Mbps upload</td>
+<td>$50-$95</td>
+<td>$75-$120</td>
+<td>2 years</td>
+<td>$10-$20 a month or $300-$450 one-time purchase</td>
+<td>Unlimited, 100-200 GB (soft cap)</td>
+<td><a href="https://www.echostar.com">EchoStar</a></td>
+</tr>
+<tr>
+<td>Starlink</td>
+<td>100-350 Mbps download, 5-25 Mbps upload</td>
+<td>$80-$120</td>
+<td>$80-$120</td>
+<td></td>
+<td>$349 (currently discounted to $89) one-time purchase for Standard</td>
+<td>Unlimited</td>
+<td><a href="https://www.spacex.com">SpaceX</a></td>
+</tr>
+<tr>
+<td>Viasat</td>
+<td>25-150 Mbps download, 3 Mbps upload</td>
+<td>$70-$100</td>
+<td>$70-$100</td>
+<td>None</td>
+<td>$15 or $250 one-time purchase</td>
+<td>Unlimited, 850 GB (soft cap)</td>
+<td><a href="https://www.viasat.com">Viasat Inc.</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="app-store">App Store</h2>
+<ul>
+<li><a href="https://secondwind.guardianproject.info/"><strong>Second Wind</strong></a> - is an open-source encrypted SMS app by non-profit organization SMSWithoutBorder. Available on Android.</li>
+</ul>
+<h2 id="archiving-secure-storage">Archiving &amp; Secure Storage</h2>
+<ul>
+<li><a href="https://tella-app.org/"><strong>Tella</strong></a> 
+    Take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app, to prevent authorities from finding photos or videos on phone album. <ul>
+<li></li>
+</ul>
+</li>
+<li><a href="https://github.com/Tommy-Geenexus/exif-eraser"><strong>ExifEraser</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>Save (Open Archive)</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="browser">Browser</h2>
+<ul>
+<li>
+<p><a href="#"><strong>Ceno Browser</strong></a> - </p>
+<ul>
+<li>Ceno Browser is a mobile web browser that uses peer-to-peer (P2P) technology to share and cache websites among users, allowing access to information even during internet shutdowns or in restricted regions. </li>
+<li>Android, Windows</li>
+</ul>
+</li>
+<li>
+<p><a href="#"><strong>Tor</strong></a> - <strong>Lorem Ipsum</strong>.</p>
+</li>
+<li><a href="https://ente.io/about"><strong>Orbot</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="content-distribution">Content Distribution</h2>
+<ul>
+<li><a href="https://451.tools/"><strong>451 tools</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="file-sharing">File Sharing</h2>
+<ul>
+<li><a href="#"><strong>android nearby share</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>NFC</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="hardware">Hardware</h2>
+<ul>
+<li><a href="https://likebutter.app/box/"><strong>Butterbox</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="media-authentication">Media Authentication</h2>
+<ul>
+<li><a href="https://proofmode.org/"><strong>proofmode</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="mesh-network">Mesh Network</h2>
+<ul>
+<li><a href="https://meshtastic.org/"><strong>meshtastic</strong></a></li>
+</ul>
+<p>??? note
+    - <a href="#"><strong>goTenna Mesh</strong></a> - (no longer supported).</p>
+<h2 id="metadata-removal">Metadata Removal</h2>
+<ul>
+<li><a href="#"><strong>AnonAddy</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>mat2</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>ExifTool</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>VLC</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>Bleachbit</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="offline-communication">Offline Communication</h2>
+<ul>
+<li><a href="#"><strong>USB Dead Drops</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="offline-map">Offline Map</h2>
+<ul>
+<li><a href="https://osmand.net/"><strong>OsmAnd</strong></a> - OsmAnd is an offline world map application based on OpenStreetMap (OSM), which allows users to navigate taking into account the preferred roads and vehicle dimensions. OsmAnd is an open source app and they do not collect user data.
+.</li>
+</ul>
+<h2 id="p2p-app-sharing">P2P App Sharing</h2>
+<ul>
+<li><a href="https://f-droid.org/en/packages/org.fdroid.nearby/"><strong>F-Droid Nearby (Android Beam)</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="p2p-communication">P2P Communication</h2>
+<ul>
+<li><a href="https://ssd.eff.org/module/choosing-vpn-thats-right-you"><strong>Briar</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>Bridgefy</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>JAMI</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="https://www.newnode.com/"><strong>NewNode</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="sms-encryption">SMS Encryption</h2>
+<ul>
+<li><a href="https://silence.im"><strong>Silence</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="https://smswithoutborders.com/"><strong>Deku SMS</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="steganography-tool">Steganography Tool</h2>
+<ul>
+<li><a href="#"><strong>OpenPuff</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>Steghide</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>SilentEye</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>Crypture</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>Stegano</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>DeepSound</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>Outguess</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+<li><a href="#"><strong>Camouflage</strong></a> - <strong>Lorem Ipsum</strong>.</li>
+</ul>
+<h2 id="vpn">VPN</h2>
+<p>There are multiple VPNs on the market, and we have not included all of them. Our standard criteria include providers that meet at least some of the following: open source, strong encryption, independent security audits, a no-logs policy, a track record of supporting human rights, and not being owned by data mining companies. However, each VPN operates differently with various protocols. We recommend ensuring it works in your region.</p>
+<table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Countries</th>
+<th>Free Version?</th>
+<th>Anonymous Payments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://protonvpn.com"><strong>Proton</strong></a></td>
+<td>112+</td>
+<td>Yes</td>
+<td>Cash</td>
+</tr>
+<tr>
+<td><a href="https://www.ivpn.net"><strong>IVPN</strong></a></td>
+<td>37+</td>
+<td>No</td>
+<td>Monero, Cash</td>
+</tr>
+<tr>
+<td><a href="https://mullvad.net"><strong>Mullvad</strong></a></td>
+<td>49+</td>
+<td>No</td>
+<td>Monero, Cash</td>
+</tr>
+<tr>
+<td><a href="https://psiphon.ca"><strong>Psiphon</strong></a></td>
+<td>20+</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td><a href="https://getlantern.org"><strong>Lantern</strong></a></td>
+<td>No customized server location</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td><a href="https://nymtech.net"><strong>Nym</strong></a></td>
+<td>85</td>
+<td>No</td>
+<td>Monero</td>
+</tr>
+<tr>
+<td><a href="https://www.tunnelbear.com"><strong>Tunnelbear</strong></a></td>
+<td>47</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="eyewitness-to-atrocities">EyeWitness to Atrocities</h2>
+<ul>
+<li><a href="https://www.eyewitness.global/"><strong>eyeWitness to Atrocities</strong></a> - The eyeWitness to Atrocities app lets you capture photos and videos with embedded metadata to verify their authenticity in court.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["toc.integrate"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
