@@ -1,0 +1,14 @@
+site_name: Shutdown.Tools
+nav:
+  - Home: index.md
+theme:
+  name: material
+  features:
+    - toc.integrate   # put TOC inside the left sidebar
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+    - scheme: slate
+      primary: deep orange
+      accent: lime
