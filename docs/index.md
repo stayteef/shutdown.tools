@@ -1,21 +1,19 @@
 # Shutdown Tools 
 
-A collection of tools, websites, strategies that could be used by HRDs, journalists, and anyone, during internet outages. If you would like to help in categorising these projects, please submit a pull request to this [repo](https://github.com/stayteef/shutdown.tools).
+A collection of tools, websites, strategies that could be used by HRDs, journalists, and anyone, **during internet outages**. 
 
-Friends, if you'd like to contribute, please just submit a pull request. :) https://github.com/stayteef/shutdown.tools
-
-Goal by the end of this week: 
-- No more Lorem Ipsum.
-- Add all warnings. 
+If you would like to help in categorising these projects, please submit a pull request to [this repo](https://github.com/stayteef/shutdown.tools).
 
 ----
 ## Alternative Internet
+
 - [**E-SIM**](#) - Using an eSIM allows you to activate a foreign mobile data plan without needing to insert a physical card into your device. It enables you to switch between different mobile networks and access alternative providers that may still be operational, ensuring connectivity even when local networks are restricted. However, it may not be a good solution in areas with complete network outages or where all providers are affected.
 
 - [**Iodine**](https://www.kali.org/tools/iodine/) - This is a piece of software that lets you tunnel IPv4 data through a DNS server. This can be usable in different situations where internet access is firewalled, but DNS queries are allowed.
+
 - [**Satellite Internet**](https://en.wikipedia.org/wiki/Satellite_Internet_access)
 
-    There are a few satellite internet providers on the market. When making a decision, consider factors such as usability, legality, cost, and latency. Please be aware of the [risks associated with satellite internet](https://satellitesafety.openinternetproject.org/)). If you prefer not to be detected while using satellite internet, be cautious of RF emissions and unplug the device when not in use.
+There are a few satellite internet providers on the market. When making a decision, consider factors such as usability, legality, cost, and latency. Please be aware of the [risks associated with satellite internet](https://satellitesafety.openinternetproject.org/). If you prefer not to be detected while using satellite internet, be cautious of RF emissions and unplug the device when not in use.
 
 | Provider   | Speed Range                     | Starting Monthly Cost | Regular Monthly Cost | Contract                          | Monthly Equipment Costs               | Data Cap                     | Owned By                     |
 |------------|----------------------------------|-----------------------|----------------------|-----------------------------------|---------------------------------------|-------------------------------|------------------------------|
@@ -26,16 +24,14 @@ Goal by the end of this week:
 
 
 ## App Store
-- [**Second Wind**](https://secondwind.guardianproject.info/) - is an open-source encrypted SMS app by non-profit organization SMSWithoutBorder. Available on Android.
+- [**Second Wind**]([https://secondwind.guardianproject.info/](https://secondwind.guardianproject.info/en/repo)) - is an open-source encrypted SMS app by non-profit organization SMSWithoutBorder. Available on Android.
 
 ## Archiving & Secure Storage
+
 - [**Tella**](https://tella-app.org/) 
-
     - Take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app, to prevent authorities from finding photos or videos on phone album. 
-    - <img src="icons/ios.png" alt="iOS" class="tiny-icon" /> 
+<img src="icons/ios.png" alt="iOS" class="tiny-icon" /> 
 <img src="icons/android.png" alt="Android" class="tiny-icon" />
-
-
  
 - [**ExifEraser**](https://github.com/Tommy-Geenexus/exif-eraser) - **Lorem Ipsum**.
 - [**Save (Open Archive)**](#) - **Lorem Ipsum**.
@@ -81,14 +77,13 @@ Goal by the end of this week:
 
 ## Offline Map
 - [**OsmAnd**](https://osmand.net/) - OsmAnd is an offline world map application based on OpenStreetMap (OSM), which allows users to navigate taking into account the preferred roads and vehicle dimensions. OsmAnd is an open source app and they do not collect user data.
-.
 
 ## P2P App Sharing
 - [**F-Droid Nearby (Android Beam)**](https://f-droid.org/en/packages/org.fdroid.nearby/) - **Lorem Ipsum**.
 
 ## P2P Communication
-- [**Briar**](https://ssd.eff.org/module/choosing-vpn-thats-right-you) - **Lorem Ipsum**.
-- [**Bridgefy**](#) - **Lorem Ipsum**.
+- [**Briar**](https://briarproject.org/) - Censorship-resistant peer-to-peer messaging that bypasses centralized servers. Briar allows you to privately connect via Bluetooth, Wi-Fi or Tor. Available on [Android](https://play.google.com/store/apps/details?id=org.briarproject.briar.android), [F-Droid](https://briarproject.org/fdroid). 
+- [**Bridgefy**](https://bridgefy.me/) - Bridgefy is a free messaging app that works without the Internet.Available on [Android](https://play.google.com/store/apps/details?id=me.bridgefy.main), [iOS](https://apps.apple.com/us/app/bridgefy-offline-messages/id975776347).
 - [**JAMI**](#) - **Lorem Ipsum**.
 - [**NewNode**](https://www.newnode.com/) - **Lorem Ipsum**.
 
