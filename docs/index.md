@@ -83,7 +83,7 @@ There are a few satellite internet providers on the market. When making a decisi
 
 ## P2P Communication
 - [**Briar**](https://briarproject.org/) - Censorship-resistant peer-to-peer messaging that bypasses centralized servers. Briar allows you to privately connect via Bluetooth, Wi-Fi or Tor. Available on [Android](https://play.google.com/store/apps/details?id=org.briarproject.briar.android), [F-Droid](https://briarproject.org/fdroid). 
-- [**Bridgefy**](https://bridgefy.me/) - Bridgefy is a free messaging app that works without the Internet.Available on [Android](https://play.google.com/store/apps/details?id=me.bridgefy.main), [iOS](https://apps.apple.com/us/app/bridgefy-offline-messages/id975776347).
+- [**Bridgefy**](https://bridgefy.me/) - Bridgefy is a free messaging app that works on Bluetooth. It has a track record of misrepresenting security issues and risks, having poor usability, and poor security. It requires a phone number, so can be tracked, has ads, and should not be used. We include it because technically it works in internet shutdowns. It is Available on [Android](https://play.google.com/store/apps/details?id=me.bridgefy.main), [iOS](https://apps.apple.com/us/app/bridgefy-offline-messages/id975776347).
 - [**JAMI**](#) - **Lorem Ipsum**.
 - [**NewNode**](https://www.newnode.com/) - **Lorem Ipsum**.
 
