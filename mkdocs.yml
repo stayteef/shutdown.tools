@@ -1,4 +1,5 @@
 site_name: Shutdown.Tools
+site_url: https://shutdown.tools
 nav:
   - Home: index.md
 theme:
