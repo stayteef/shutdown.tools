@@ -2,6 +2,12 @@
 
 A collection of tools, websites, strategies that could be used by HRDs, journalists, and anyone, during internet outages. If you would like to help in categorising these projects, please submit a pull request to this file.
 
+Friends, if you'd like to contribute, please just submit a pull request. :) https://github.com/stayteef/shutdown.tools
+
+Goal by the end of this week: 
+- No more Lorem Ipsum.
+- Add all warnings. 
+
 ----
 ## Alternative Internet
 - [**E-SIM**](#) - Using an eSIM allows you to activate a foreign mobile data plan without needing to insert a physical card into your device. It enables you to switch between different mobile networks and access alternative providers that may still be operational, ensuring connectivity even when local networks are restricted. However, it may not be a good solution in areas with complete network outages or where all providers are affected.
