@@ -1,6 +1,6 @@
 # Shutdown Tools 
 
-A collection of tools, websites, strategies that could be used by HRDs, journalists, and anyone, during internet outages. If you would like to help in categorising these projects, please submit a pull request to this file.
+A collection of tools, websites, strategies that could be used by HRDs, journalists, and anyone, during internet outages. If you would like to help in categorising these projects, please submit a pull request to this [repo](https://github.com/stayteef/shutdown.tools).
 
 Friends, if you'd like to contribute, please just submit a pull request. :) https://github.com/stayteef/shutdown.tools
 
