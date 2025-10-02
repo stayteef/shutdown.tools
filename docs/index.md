@@ -27,7 +27,7 @@ There are a few satellite internet providers on the market. When making a decisi
 
 
 ## App Store
-- [**Second Wind**]([https://secondwind.guardianproject.info/](https://secondwind.guardianproject.info/en/repo)) 
+- [**Second Wind**](https://secondwind.guardianproject.info/en/repo)
 
 <img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" /> 
 Second Wind is an offline distribution system for Android apps 
