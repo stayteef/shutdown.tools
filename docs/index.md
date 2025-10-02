@@ -68,6 +68,10 @@ Paskoocheh, Persian for “alleyway,” is an app store for Iranians to access t
 - [**Bridgefy**](https://bridgefy.me/) 
     - Bridgefy is a free messaging app that works without the Internet.Available on [Android](https://play.google.com/store/apps/details?id=me.bridgefy.main), [iOS](https://apps.apple.com/us/app/bridgefy-offline-messages/id975776347).
 
+- [**Deku SMS**](https://dekusms.com/)
+     - DekuSMS is an Android SMS app that allows you to encrypt your SMS.
+     - <span style="color:red; font-style:italic;">Requires purchasing a physical device.</span>
+
 - [**JAMI**](#) 
     - **Lorem Ipsum**.
 
@@ -130,10 +134,6 @@ Removing metadata protects human rights defenders by hiding file origins, locati
 
 ## Offline Map
 - [**OsmAnd**](https://osmand.net/) - OsmAnd is an offline world map application based on OpenStreetMap (OSM), which allows users to navigate taking into account the preferred roads and vehicle dimensions. OsmAnd is an open source app and they do not collect user data.
-
-## SMS Encryption
-- [**Silence**](https://silence.im) - **Lorem Ipsum**.
-- [**Deku SMS**](https://smswithoutborders.com/) - **Lorem Ipsum**.
 
 <!--
 ## Steganography Tool
