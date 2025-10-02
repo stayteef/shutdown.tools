@@ -70,7 +70,7 @@ Paskoocheh, Persian for “alleyway,” is an app store for Iranians to access t
 
 - [**Deku SMS**](https://dekusms.com/)
      - DekuSMS is an Android SMS app that allows you to encrypt your SMS.
-     - <span style="color:red; font-style:italic;">Requires purchasing a physical device.</span>
+     <span style="color:red; font-style:italic;">Authorities will be able to see a large amount of ciphertext being sent from your number, especially when your SIM is registered with your ID.</span>
 
 - [**JAMI**](#) 
     - **Lorem Ipsum**.
