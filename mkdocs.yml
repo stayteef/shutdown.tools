@@ -15,3 +15,12 @@ theme:
       accent: lime
 extra_css:
   - assets/stylesheets/custom.css
+plugins:
+  - search
+  - tags
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
