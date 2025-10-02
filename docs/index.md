@@ -29,12 +29,12 @@ There are a few satellite internet providers on the market. When making a decisi
 ## App Store
 - [**Second Wind**]([https://secondwind.guardianproject.info/](https://secondwind.guardianproject.info/en/repo)) 
 
-<img src="icons/fdroid.png" alt="fdroid" class="tiny-icon" /> 
+<img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" /> 
 Second Wind is an offline distribution system for Android apps 
 
 - [**Paskoocheh**]([https://paskoocheh.com/?platform=macos) 
 
-<img src="icons/fdroid.png" alt="fdroid" class="tiny-icon" />
+<img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" />
 
 Paskoocheh, Persian for “alleyway,” is an app store for Iranians to access tools for secure communication, information sharing, and censorship circumvention.
 
@@ -58,7 +58,7 @@ Paskoocheh, Persian for “alleyway,” is an app store for Iranians to access t
     - <img src="icons/android.png" alt="Android" class="tiny-icon" />
 
 - [**Tella**](https://tella-app.org/) 
-    - <img src="icons/ios.png" alt="iOS" class="tiny-icon" /> <img src="icons/android.png" alt="Android" class="tiny-icon" /> <img src="icons/fdroid.png" alt="fdroid" class="tiny-icon" />
+    - <img src="icons/ios.png" alt="iOS" class="tiny-icon" /> <img src="icons/android.png" alt="Android" class="tiny-icon" /> <img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" />
     - Take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app, to prevent authorities from finding photos or videos on phone album. 
 
 ## Communication
@@ -97,7 +97,7 @@ Paskoocheh, Persian for “alleyway,” is an app store for Iranians to access t
 - [**NFC**](#) -NFC (Near Field Communication) file sharing on Android allows devices to exchange files by simply bringing them close together. Users enable NFC in settings, select the file to share, and tap the devices, initiating the transfer securely and swiftly.
 - [**USB Dead Drops**](#) - A USB dead drop is a USB storage device installed in a public space. For example, a USB flash drive might be mounted in an outdoor brick wall and fixed in place with fast concrete. The dead drops can therefore be regarded as an anonymous, offline, peer-to-peer file sharing network.
 - [**Tella**](https://tella-app.org/) 
-    - <img src="icons/ios.png" alt="iOS" class="tiny-icon" /> <img src="icons/android.png" alt="Android" class="tiny-icon" /> <img src="icons/fdroid.png" alt="fdroid" class="tiny-icon" />
+    - <img src="icons/ios.png" alt="iOS" class="tiny-icon" /> <img src="icons/android.png" alt="Android" class="tiny-icon" /> <img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" />
     - Tella's Nearby Sharing feature allows users to securely share end-to-end encrypted files fully offline, across platforms and devices.
 - [**F-Droid Nearby (Android Beam)**](https://f-droid.org/en/packages/org.fdroid.nearby/) - F-Droid Nearby is a the built-in Nearby feature of the F-Droid client app that allows users to exchange apps device-to-device locally without internet access. 
 
@@ -120,7 +120,7 @@ Removing metadata protects human rights defenders by hiding file origins, locati
 
 - [**Scrambled Exif**](https://gitlab.com/juanitobananas/scrambled-exif)  
   Android app to remove metadata, available on F-Droid.  
-  <img src="icons/android.png" alt="Android" class="tiny-icon" /> <img src="icons/fdroid.png" alt="F-Droid" class="tiny-icon" />
+  <img src="icons/android.png" alt="Android" class="tiny-icon" /> <img src="icons/fdriod.png" alt="F-Droid" class="tiny-icon" />
 
 - [**mat2**](https://github.com/tpet/mat2)  
   Command-line tool for removing metadata from a variety of file formats.
