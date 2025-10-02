@@ -32,7 +32,7 @@ There are a few satellite internet providers on the market. When making a decisi
 <img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" /> 
 Second Wind is an offline distribution system for Android apps 
 
-- [**Paskoocheh**]([https://paskoocheh.com/?platform=macos) 
+- [**Paskoocheh**](https://paskoocheh.com/?platform=macos) 
 
 <img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" />
 
