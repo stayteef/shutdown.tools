@@ -7,16 +7,21 @@ If you would like to help in categorising these projects, please submit a pull r
 ----
 ## Alternative Internet
 
-- [**E-SIM**](#) 
-    - Using an eSIM allows you to activate a foreign mobile data plan without needing to insert a physical card into your device. It enables you to switch between different mobile networks and access alternative providers that may still be operational, ensuring connectivity even when local networks are restricted. However, it may not be a good solution in areas with complete network outages or where all providers are affected.
+- [**E-SIM**](https://en.wikipedia.org/wiki/ESIM) 
+    - Using an eSIM allows you to activate a foreign mobile data plan without needing to insert a physical card into your device. It enables you to switch between different mobile networks and access alternative providers that may still be operational, ensuring connectivity even when local networks are restricted. However, it *may not be a good solution in areas with complete network outages* or where all providers are affected.
+    - There are different providers of eSIM services that you can use. However, most of them are private commercial companies that *may not prioritise your privacy*. 
+    - In some countries, eSIM providers may be blocked (e.g., [Turkiye](https://esimradar.com/turkey-blocks-esim-providers/))
 
 - [**Iodine**](https://www.kali.org/tools/iodine/) 
-    - This is a piece of software that lets you tunnel IPv4 data through a DNS server. This can be usable in different situations where internet access is firewalled, but DNS queries are allowed.
-    - <span style="color:red; font-style:italic;">Require a relatively higher level of technical expertise and proficiency in using the terminal.</span>
+    - This software allows you to tunnel IPv4 data through a DNS server. This can be usable in different situations where internet access is *firewalled*, but DNS queries are allowed.
+    - **Iodine requires a higher level of technical proficiency in using the terminal**.
 
 - [**Satellite Internet**](https://en.wikipedia.org/wiki/Satellite_Internet_access)
 
-There are a few satellite internet providers on the market. When making a decision, consider factors such as usability, legality, cost, and latency. Please be aware of the [risks associated with satellite internet](https://satellitesafety.openinternetproject.org/). If you prefer not to be detected while using satellite internet, be cautious of RF emissions and unplug the device when not in use.
+    - There are a few satellite internet providers on the market. When making a decision, consider factors such as **usability, legality, cost, and [latency](https://www.cloudflare.com/en-gb/learning/performance/glossary/what-is-latency/)**. 
+    - Please be aware of the [risks associated with satellite internet](https://satellitesafety.openinternetproject.org/). If you prefer not to be detected while using satellite internet, be cautious of [RF emissions](https://en.wikipedia.org/wiki/Types_of_radio_emissions) and unplug the device when not in use.
+
+Below you can see the examples of commercial providers of satellite internet. Please check if they are available and *can be legally used* in your country, or region. 
 
 | Provider   | Speed Range                     | Starting Monthly Cost | Regular Monthly Cost | Contract                          | Monthly Equipment Costs               | Data Cap                     | Owned By                     |
 |------------|----------------------------------|-----------------------|----------------------|-----------------------------------|---------------------------------------|-------------------------------|------------------------------|
@@ -25,18 +30,22 @@ There are a few satellite internet providers on the market. When making a decisi
 | Viasat     | 25-150 Mbps download, 3 Mbps upload | $70-$100              | $70-$100             | None                              | $15 or $250 one-time purchase         | Unlimited, 850 GB (soft cap) |  [Viasat Inc.](https://www.viasat.com) |
 
 
-
 ## App Store
 - [**Second Wind**](https://secondwind.guardianproject.info/en/repo)
 
 <img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" /> 
-Second Wind is an offline distribution system for Android apps 
+
+Second Wind is an **offline distribution system for Android apps**. 
+
+You can set it up on your Android device, Raspberry Pi, or other piece of hardware to share the applications available on [F-Droid marketplace](https://f-droid.org/) with other users if there is an outage in your neighbourhood. 
+
+Setting up SecondWind requires some preparation **before the outage**. In order to use it during the outage, you need to install it and the applications you want to share with other users in advance. 
 
 - [**Paskoocheh**](https://paskoocheh.com/?platform=macos) 
 
 <img src="icons/fdriod.png" alt="fdroid" class="tiny-icon" />
 
-Paskoocheh, Persian for “alleyway,” is an app store for Iranians to access tools for secure communication, information sharing, and censorship circumvention.
+Paskoocheh, Persian for “alleyway,” is an app store that was developed to provide Iranian users with access to the tools for secure communication, information sharing, and censorship circumvention.
 
 <!--
 ## Archiving & Secure Storage
