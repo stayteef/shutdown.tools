@@ -2,3 +2,27 @@
     width: 70px;  /* Adjust this value as needed */
     height: auto; /* Maintain aspect ratio */
 }
+
+/* Bordered card around each tool so entries are clearly separated.
+   Add to mkdocs.yml:  extra_css:  [ - stylesheets/extra.css ]
+   and place this file at docs/stylesheets/extra.css                */
+
+.tool {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  padding: 1rem 1.25rem 0.5rem;
+  margin: 1.75rem 0;
+  background: var(--md-default-bg-color);
+}
+
+/* Tool name: larger than surrounding text, pulled up next to the logo */
+.tool h3 {
+  margin-top: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* Keep the floated logo from crowding the text */
+.tool img[align="right"] {
+  margin: 0 0 0.5rem 1rem;
+}
