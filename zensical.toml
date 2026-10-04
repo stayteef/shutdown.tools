@@ -42,3 +42,6 @@ auto_append = ["includes/glossary.md"]
 [project.plugins.search]
 [project.plugins.tags]
 [project.plugins.offline]
+
+[project.extra]
+polyfills = ["js/iframe-worker-shim.js"]
