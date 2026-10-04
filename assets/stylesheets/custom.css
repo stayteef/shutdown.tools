@@ -81,3 +81,15 @@
 .md-content blockquote {
   border-left-color: #c62828 !important;
 }
+
+.pseudo-h3 {
+  font-size: clamp(1.3rem, 4vw, 1.5rem);
+  font-weight: 700;
+  margin: 2rem 0 0.5rem;
+}
+
+.pseudo-h4 {
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
+  font-weight: 700;
+  margin: 1.5rem 0 0.4rem;
+}
