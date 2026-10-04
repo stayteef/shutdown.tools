@@ -2,3 +2,82 @@
     width: 70px;  /* Adjust this value as needed */
     height: auto; /* Maintain aspect ratio */
 }
+
+/* Bordered card around each tool so entries are clearly separated.
+   Add to mkdocs.yml:  extra_css:  [ - stylesheets/extra.css ]
+   and place this file at docs/stylesheets/extra.css                */
+
+.tool {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  padding: 1rem 1.25rem 0.5rem;
+  margin: 1rem 0;
+  background: var(--md-default-bg-color);
+}
+
+/* Category section titles */
+.md-content h2 {
+  font-size: 1.9rem;
+  font-weight: 800;
+  margin-top: 3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--md-primary-fg-color);
+}
+
+/* Tool name: larger than surrounding text, pulled up next to the logo */
+.tool h3 {
+  margin-top: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* Keep the floated logo from crowding the text */
+.tool img[align="right"] {
+  margin: 0 0 0.5rem 1rem;
+}
+
+/* User reviews: small, muted, clearly separated from the tool content */
+.tool .reviews {
+  margin-top: 1rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.tool .reviews .label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3rem;
+}
+
+.tool .reviews p {
+  margin: 0.25rem 0;
+}
+
+.tool .reviews .stars {
+  color: #e0a800;   /* amber stars so the rating stands out */
+}
+
+/* for platforms */
+.tool .pill {
+  display: inline-block;
+  border: none;
+  background: color-mix(in srgb, var(--md-default-fg-color) 5%, transparent);
+  border-radius: 0.25rem;
+  padding: 0.03rem 0.35rem;
+  margin: 0 0.2rem 0.25rem 0;
+  font-size: 0.62rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* for Strategy */
+.tool.strategy {
+  border-style: dashed;
+}
+
+.md-content blockquote {
+  border-left-color: #c62828 !important;
+}
