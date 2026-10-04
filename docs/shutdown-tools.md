@@ -64,6 +64,8 @@ It is for contact people nearby you, but not a specific contact in another locat
 
     "It only works within 100 meters, which is quite a short distance. It also falsely claims Hong Kong protesters used it a lot during the protest. People only installed it, but there was never an internet shutdown so no one actually used it. So, lack of real use cases." — Anonymous, Hong Kong, Sept 2026
 
+</div>
+
 <!-- Deku SMS -->
 <div class="tool" markdown>
 
