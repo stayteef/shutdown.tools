@@ -1,0 +1,79 @@
+<!-- Tool Name -->
+<div class="tool" markdown>
+
+<!-- LOGO-->
+![Tool Name logo](assets/toolname.png){ align=right width=88 }
+
+<!-- description-->
+### Tool Name
+
+**Tool Name** is a one-line description of what it does and how it helps during a shutdown.
+
+<!-- info-->
+<span class="pill">**Platforms:** [:simple-android:](URL){ title="Android" } [:simple-apple:](URL){ title="iOS" } [:android:](URL){ title="APK" } [:fontawesome-brands-windows:](URL){ title="Windows" } [:material-apple:](URL){ title="macOS" } [:simple-linux:](URL){ title="Linux" } [:material-web:](URL){ title="Web" } :material-chip:{ title="Hardware" }</span>
+<span class="pill">**Open source:** :material-check:</span>
+<span class="pill">**Last Updated:** </span>
+
+[:octicons-globe-16: Official website](URL){ .md-button }
+
+<!-- WARNING/REMINDER-->
+!!! info "Test before use"
+
+    - What the user should set up or test ahead of time. Delete this block if not needed.
+
+!!! warning "Risks"
+
+    - First potential risk to be aware of.
+    - Second one, if there is another.
+
+!!! danger "Warning"
+
+    A stronger, more alarming caution. Delete this block unless it's serious.
+
+<!-- REVIEWS-->
+<div class="reviews" markdown>
+<span class="label">User reviews</span>
+
+
+</div>
+
+<!-- END-->
+</div>
+
+<span class="pill" style="background: #fde68a; color: #92400e;">:material-chip: ⚠️ Hardware required</span>
+<span class="pill" style="background: #ddd6fe; color: #5b21b6;">:material-server: Server Setup Required</span>
+<span class="pill" style="background: #fecaca; color: #991b1b;">:material-console: Command line Tool</span>
+
+- clean up the format: for things like extra line break, words from template i forget to change, wrong indent 
+- remove the user review section if there is no content 
+- Standardize the format of the Admonition blocks. if it's a risk/ warning, use "danger"(the red one), if it's nuetrial use info which is the blue one, if it's a reminder or something to pay atteniotn to ,use warning which is the organge one
+
+tag ideas: how hard to use/ what kind of shutdown 
+
+
+<!-- Name -->
+<div class="tool strategy" markdown>
+
+<!-- NAME -->
+### Strategy Name
+
+<!-- description-->
+**Strategy Name** is a one-line description of what it is and how it helps during a shutdown.
+
+
+<!-- HOW IT WORKS (optional) -->
+!!! info "How it works"
+
+    Plain explanation of how to actually do it.
+
+<!-- RISKS -->
+!!! danger "Risks"
+
+    - First risk to be aware of.
+
+<!-- REMINDER (optional) -->
+!!! warning "Good to know"
+
+    - Something to prepare or pay attention to. Delete if not needed.
+
+</div>
