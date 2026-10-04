@@ -44,7 +44,7 @@ It is for contact people nearby you, but not a specific contact in another locat
 <div class="tool" markdown>
 
 <!-- LOGO-->
-![Bridgefy logo](assets/Bridgefy.png){ align=right width=88 }
+![Bridgefy logo](assets/bridgefy.png){ align=right width=88 }
 
 <!-- NAME -->
 #### Bridgefy
@@ -60,13 +60,9 @@ It is for contact people nearby you, but not a specific contact in another locat
 [:octicons-globe-16: Official website](https://bridgefy.me/){ .md-button }
 
 <!-- REVIEWS-->
-<div class="reviews" markdown>
-<span class="label">User reviews</span>
+??? quote "User reviews"
 
-"It only works within 100 meters, which is quite a short distance. It also falsely claim Hong Kong protesters use it a lot during the protest - people only installed it, but there was never an internet shutdown so no one actually used it. So lack of real use cases." — Anonymous, Hong Kong, Sept 2026
-</div>
-
-</div>
+    "It only works within 100 meters, which is quite a short distance. It also falsely claims Hong Kong protesters used it a lot during the protest. People only installed it, but there was never an internet shutdown so no one actually used it. So, lack of real use cases." — Anonymous, Hong Kong, Sept 2026
 
 <!-- Deku SMS -->
 <div class="tool" markdown>
