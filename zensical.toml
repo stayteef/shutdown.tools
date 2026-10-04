@@ -26,7 +26,7 @@ primary = "deep orange"
 accent = "lime"
 
 [project.markdown_extensions.toc]
-toc_depth = "3"
+toc_depth = "2"
 
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
@@ -35,6 +35,8 @@ toc_depth = "3"
 [project.markdown_extensions.pymdownx.emoji]
 emoji_index = "zensical.extensions.emoji.twemoji"
 emoji_generator = "zensical.extensions.emoji.to_svg"
+
+[project.markdown_extensions.pymdownx.details]  
 
 [project.markdown_extensions.pymdownx.snippets]
 auto_append = ["includes/glossary.md"]

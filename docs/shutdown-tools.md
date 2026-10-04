@@ -10,7 +10,7 @@ Tools in each cateogory is arrnaged in alphitical order.
 
 ----
 
-### Communication
+## Communication
 
 <!-- Briar -->
 <div class="tool" markdown>
@@ -19,7 +19,7 @@ Tools in each cateogory is arrnaged in alphitical order.
 ![Briar logo](assets/briar.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Briar
+### Briar
 
 <!-- description-->
 Briar is peer-to-peer messaging that allows you to message other Briar users located within 300 meters without the Internet. privately connect via Bluetooth, Wi-Fi or Tor. 
@@ -47,7 +47,7 @@ It is for contact people nearby you, but not a specific contact in another locat
 ![Bridgefy logo](assets/bridgefy.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Bridgefy
+### Bridgefy
 
 <!-- description-->
 **Bridgefy** is a tool that you can send encrypted messages woth other Bridgefy users within 100 meeters by Bluetooth without internet. It allows texts, voice notes and locations. 
@@ -73,7 +73,7 @@ It is for contact people nearby you, but not a specific contact in another locat
 ![DekuSMS logo](assets/dekusms.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Deku SMS
+### Deku SMS
 
 <!-- description-->
 Deku SMS is an app that allows you to encrypt your SMS. In some cases, SMS still works when the Internet is down, but it is not encryped which means the carrier and the autheoties can see everything you're sending. With SMS end to end encroytion it prevents others to see the content of your SMS.
@@ -102,7 +102,7 @@ Deku SMS is an app that allows you to encrypt your SMS. In some cases, SMS still
 ![Delta Chat logo](assets/delta-chat.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Delta Chat
+### Delta Chat
 
 <!-- description-->
 ⚠️ **Require setting up servers in a region to work offline**
@@ -130,7 +130,7 @@ Deku SMS is an app that allows you to encrypt your SMS. In some cases, SMS still
 ![Meshtastic logo](assets/meshtastic.webp){ align=right width=88 }
 
 <!-- NAME -->
-#### Meshtastic
+### Meshtastic
 
 <!-- description-->
 Meshtastic® is a project that lets you use their inexpensive [LoRa][lora] radio devices to send text messages to other people with no internet or phone signal. Each device is good for a few kilometers on its own, but because every device also passes along messages for others, a group of them forms a mesh that can reach much further, across a whole town or city.
@@ -156,7 +156,7 @@ Meshtastic® is a project that lets you use their inexpensive [LoRa][lora] radio
 ![Shout logo](assets/shout.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Shout Messages
+### Shout Messages
 
 <!-- description-->
 **Shout Messages** is an app that allows you to encrypt your SMS, and image. In some cases, SMS still works when the Internet is down, but it is not encryped which means the carrier and the autheoties can see everything you're sending. With SMS end to end encroytion it prevents others to see the content of your SMS.
@@ -191,7 +191,7 @@ Meshtastic® is a project that lets you use their inexpensive [LoRa][lora] radio
 
 </div>
 
-### Content Distribution
+## Content Distribution
 
 <!-- RelaySMS -->
 <div class="tool" markdown>
@@ -200,7 +200,7 @@ Meshtastic® is a project that lets you use their inexpensive [LoRa][lora] radio
 ![relaysms logo](assets/relaysms.png){ align=right width=88 }
 
 <!-- NAME -->
-#### RelaySMS
+### RelaySMS
 
 <!-- description-->
 RelaySMS enables users to send messages to online platforms, including twitter, Gmail, telegram, without the use of an active internet connection via encrypted SMS.
@@ -232,7 +232,7 @@ RelaySMS enables users to send messages to online platforms, including twitter, 
 ![Butterbox](assets/butterbox.svg){ align=right width=88 }
 
 <!-- NAME -->
-#### Butter Box
+### Butter Box
 
 <!-- description-->
 **Butter Box** is a lightweight, portable device that works like a hard drive with its own Wi-Fi hotspot. Place it in a public location, and anyone nearby can connect to it and view or download its pre-made content packs, with no internet required. From a content pack, people can get essential files such as app [APKs][apk] (like Tella or other encrypted messengers), read educational PDFs and offline Wikipedia, and communicate locally through encrypted mesh chat rooms (Matrix).
@@ -255,7 +255,7 @@ One use case: you set up a Butter Box with content you think is useful for your 
 
 </div>
 
-### File Sharing
+## File Sharing
 
 <!-- Tella -->
 <div class="tool" markdown>
@@ -264,7 +264,7 @@ One use case: you set up a Butter Box with content you think is useful for your 
 ![Tella logo](assets/tella.svg){ align=right width=88 }
 
 <!-- NAME -->
-#### Tella
+### Tella
 
 <!-- description-->
 **Tella**'s Nearby Sharing feature allows users to securely share files offline between devices in close physical proximity, across platforms including iOS, Android, macOS, Windows, and Linux, regardless of device brand or model, and can be used on any device where Tella is installed. You can see it as a cross-platform airdrop. 
@@ -285,7 +285,7 @@ One use case: you set up a Butter Box with content you think is useful for your 
 ![F-Droid logo](assets/F-Droid.png){ align=right width=88 }
 
 <!-- NAME -->
-#### F-Droid Nearby
+### F-Droid Nearby
 
 <!-- description-->
 **F-Droid Nearby** is the built-in Nearby feature of the [F-Droid](https://f-droid.org/en/) client app that allows users to exchange apps device-to-device in close physical proximity, locally without internet access. 
@@ -303,7 +303,7 @@ One use case: you set up a Butter Box with content you think is useful for your 
 <div class="tool strategy" markdown>
 
 <!-- NAME -->
-#### USB Dead Drop
+### USB Dead Drop
 
 <!-- description-->
 **USB dead drop** is a USB flash drive left in a public place for anyone to use. You can pre-load it with the content you want to distribute, such as app [APKs][apk], videos, or PDFs, so people can plug in and copy the files with no internet needed.
@@ -325,7 +325,7 @@ One use case: you set up a Butter Box with content you think is useful for your 
 <div class="tool strategy" markdown>
 
 <!-- NAME -->
-#### Built-in Phone Sharing
+### Built-in Phone Sharing
 
 <!-- description-->
 Most phones already have a built-in way to send files directly to nearby devices with no internet: **AirDrop** on iPhone and **Quick Share** (formerly Nearby Share) on Android. 
@@ -342,7 +342,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 
 </div>
 
-### Metadata Removal
+## Metadata Removal
 
 <!-- Exif Eraser -->
 <div class="tool" markdown>
@@ -351,7 +351,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ![Exif Eraser logo](assets/Exif-eraser.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Exif Eraser
+### Exif Eraser
 
 <!-- description-->
 **Exif Eraser** is a one-line description of what it does and how it helps during a shutdown.
@@ -372,7 +372,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ![Scrambled Exif logo](assets/Scrambled-exif.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Scrambled Exif
+### Scrambled Exif
 
 <!-- description-->
 **Scrambled Exif** is a one-line description of what it does and how it helps during a shutdown.
@@ -393,7 +393,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ![ExifCleaner logo](assets/ExifCleaner.svg){ align=right width=88 }
 
 <!-- NAME -->
-#### ExifCleaner
+### ExifCleaner
 
 <!-- description-->
 **ExifCleaner** is a one-line description of what it does and how it helps during a shutdown.
@@ -414,7 +414,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ![Metadata Cleaner logo](assets/metadatacleaner.avif){ align=right width=88 }
 
 <!-- NAME -->
-#### Metadata Cleaner
+### Metadata Cleaner
 
 <!-- description-->
 **Metadata Cleaner** is a one-line description of what it does and how it helps during a shutdown.
@@ -435,7 +435,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ![Mat2 logo](assets/mat2.svg){ align=right width=88 }
 
 <!-- NAME -->
-#### Mat2
+### Mat2
 
 <!-- description-->
 **Mat2** (Metadata Anonymisation Toolkit 2) is a cross-platform tool for removing metadata from several file formats. It provides both a command line tool and [a graphical user interface](https://metadata.systemli.org/). 
@@ -454,7 +454,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 <div class="tool strategy" markdown>
 
 <!-- NAME -->
-#### Shortcuts (iOS & macOS)
+### Shortcuts (iOS & macOS)
 
 <!-- description-->
 On iOS and macOS, you can remove image metadata without using any third-party apps by creating a [shortcut](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
@@ -469,7 +469,7 @@ This shortcut removes metadata such as location, device model, lens model, and o
 
 </div>
 
-### Map
+## Map
 
 <!-- OsmAnd -->
 <div class="tool" markdown>
@@ -478,7 +478,7 @@ This shortcut removes metadata such as location, device model, lens model, and o
 ![OsmAnd logo](assets/osmand.webp){ align=right width=88 }
 
 <!-- NAME -->
-#### OsmAnd
+### OsmAnd
 
 <!-- description-->
 **OsmAnd** is a world map app based on OpenStreetMap (OSM), but built specifically for offline use. All map data can be stored on users' devices for offline use, while still offering routing, with optical and voice guidance, for car, bike, and pedestrian usage. All main functionalities work both online and offline (no internet needed). OsmAnd does not collect user data.
@@ -502,7 +502,7 @@ This shortcut removes metadata such as location, device model, lens model, and o
 
 </div>
 
-### Secure Documentation
+## Secure Documentation
 
 <!-- eyeWitness to Atrocities -->
 <div class="tool" markdown>
@@ -511,7 +511,7 @@ This shortcut removes metadata such as location, device model, lens model, and o
 ![eyeWitness to Atrocities logo](assets/eyewitness.png){ align=right width=88 }
 
 <!-- NAME -->
-#### eyeWitness to Atrocities
+### eyeWitness to Atrocities
 
 <!-- description-->
 The **eyeWitness to Atrocities** app lets users capture tamper-proof video and photo, such as evidence of war crimes and police brutality, by embedding metadata to prove the reliability and validity of footage. One of the use cases is to verify their authenticity in court.
@@ -532,7 +532,7 @@ The **eyeWitness to Atrocities** app lets users capture tamper-proof video and p
 ![Tella logo](assets/tella.svg){ align=right width=88 }
 
 <!-- NAME -->
-#### Tella
+### Tella
 
 <!-- description-->
 **Tella** encrypts and hides your files and gallery. It also works as a camera: when you take photos, videos, or audio directly in the app, it encrypts them automatically and immediately. You can also upload existing files into it. So if authorities search your phone and look through your album or recordings, they won't see anything stored in Tella.
@@ -554,7 +554,7 @@ The **eyeWitness to Atrocities** app lets users capture tamper-proof video and p
 
 </div>
 
-### Browser
+## Browser
 
 <!-- Ceno Browser -->
 <div class="tool" markdown>
@@ -563,7 +563,7 @@ The **eyeWitness to Atrocities** app lets users capture tamper-proof video and p
 ![Ceno logo](https://ceno.app/wp-content/uploads/2025/12/ceno-logo.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Ceno Browser
+### Ceno Browser
 
 <!-- description-->
 **Ceno Browser** is a decentralized mobile web browser designed to keep some connectivity during network blackouts. It uses peer-to-peer technology, so instead of loading a page only from the website itself, it can fetch what other Ceno users have already seen. Ceno still needs some kind of network path to reach other users or the helper servers, for example someone in the country with Ceno installed who still has internet access (such as through Starlink, or because they work in government). But it cannot work where no network path exists at all.
@@ -584,7 +584,7 @@ The **eyeWitness to Atrocities** app lets users capture tamper-proof video and p
 
 </div>
 
-### VPN
+## VPN
 
 > ⚠️ <span style="color: #c62828;">**A VPN needs some internet connection to work, so it does not work during a full shutdown.**</span> ⚠️
 
@@ -593,7 +593,7 @@ There are multiple VPNs on the market, and we have not included all of them. Our
 <div class="tool" markdown>
 
 <!-- NAME -->
-#### VPN Providers
+### VPN Providers
 
 <!-- info-->
 | Provider   | Countries                          | Free Version? | Anonymous Payments     |
@@ -614,13 +614,13 @@ There are multiple VPNs on the market, and we have not included all of them. Our
 
 </div>
 
-### Alternative Internet
+## Alternative Internet
 
 <!-- e-SIM -->
 <div class="tool" markdown>
 
 <!-- NAME -->
-#### e-SIM
+### e-SIM
 
 <!-- description-->
 Using an **e-SIM** allows you to activate a foreign mobile data plan without needing to insert a physical card into your device. It enables you to switch between different mobile networks and access alternative providers that may still be operational, ensuring connectivity even when local networks are restricted.
@@ -645,7 +645,7 @@ Using an **e-SIM** allows you to activate a foreign mobile data plan without nee
 ![Starlink logo](assets/starlink.png){ align=right width=88 }
 
 <!-- NAME -->
-#### Starlink
+### Starlink
 
 <!-- description-->
 **Starlink** is a satellite internet service from SpaceX that provides high-speed, low-latency internet by connecting directly to satellites, bypassing the local internet providers that governments often control.
