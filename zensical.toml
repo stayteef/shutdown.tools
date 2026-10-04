@@ -39,6 +39,7 @@ emoji_generator = "zensical.extensions.emoji.to_svg"
 [project.markdown_extensions.pymdownx.details]  
 
 [project.markdown_extensions.pymdownx.snippets]
+base_path = ["docs"]
 auto_append = ["includes/glossary.md"]
 
 [project.plugins.search]
@@ -47,3 +48,7 @@ auto_append = ["includes/glossary.md"]
 
 [project.extra]
 polyfills = ["js/iframe-worker-shim.js"]
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/stayteef/shutdown.tools"
