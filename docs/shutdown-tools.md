@@ -348,7 +348,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 <div class="tool" markdown>
 
 <!-- LOGO-->
-![Exif Eraser logo](assets/Exif-eraser.png){ align=right width=88 }
+![Exif Eraser logo](assets/exif-eraser.png){ align=right width=88 }
 
 <!-- NAME -->
 ### Exif Eraser
@@ -390,7 +390,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 <div class="tool" markdown>
 
 <!-- LOGO-->
-![ExifCleaner logo](assets/ExifCleaner.svg){ align=right width=88 }
+![ExifCleaner logo](assets/exifCleaner.svg){ align=right width=88 }
 
 <!-- NAME -->
 ### ExifCleaner
