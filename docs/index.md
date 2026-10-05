@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Shutdown Tools 
+# Shutdown.Tools 
 
 A collection of tools, websites, and strategies that could be used by HRDs, journalists, and anyone, **during internet outages**. 
 

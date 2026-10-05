@@ -9,7 +9,7 @@ Plain-language explanations of the technical terms used across this site.
 ## IP address { #ip }
 An IP (Internet Protocol) address is a unique numerical identifier assigned to every device connected to a computer network, like a home address for your device.
 
-## LoRa { #LoRa }
+## LoRa { #lora }
 LoRa is short for "Long Range". It is a type of radio signal that sends small amounts of data over long distances using very little power.
 
 ## APK { #apk }

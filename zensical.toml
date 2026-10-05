@@ -1,6 +1,6 @@
 [project]
 site_name = "Shutdown.Tools"
-site_url = "https://shutdown.tools"
+site_url = "https://www.shutdown.tools"
 extra_css = ["assets/stylesheets/custom.css"]
 
 nav = [

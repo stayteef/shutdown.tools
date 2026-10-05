@@ -354,7 +354,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ### Exif Eraser
 
 <!-- description-->
-**Exif Eraser** is a one-line description of what it does and how it helps during a shutdown.
+**Exif Eraser** is an Android app that removes metadata from your photos before you share them. It supports JPEG, PNG, and WebP images. 
 
 <!-- info-->
 <span class="pill">**Platforms:** [:simple-android:](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser){ title="Android" } [:material-download-box:](https://github.com/Tommy-Geenexus/exif-eraser){ title="APK" }</span>
@@ -375,7 +375,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ### Scrambled Exif
 
 <!-- description-->
-**Scrambled Exif** is a one-line description of what it does and how it helps during a shutdown.
+**Scrambled Exif** is an Android app that removes metadata from your photos before you share them. Instead of opening the app, you just hit "share" on a picture and pick Scrambled Exif, and it strips the data before passing the clean photo along.
 
 <!-- info-->
 <span class="pill">**Platforms:** [:simple-android:](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif){ title="Android" } [:simple-fdroid:](https://f-droid.org/packages/com.jarsilio.android.scrambledeggsif/){ title="F-Droid" } [:material-download-box:](https://gitlab.com/juanitobananas/scrambled-exif/-/releases){ title="APK" }</span>
@@ -396,7 +396,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ### ExifCleaner
 
 <!-- description-->
-**ExifCleaner** is a one-line description of what it does and how it helps during a shutdown.
+**ExifCleaner** is a drag-and-drop desktop app for removing metadata from photos, videos, and PDFs, with batch processing for many files at once. It covers common formats like JPEG, PNG, WebP, TIFF, GIF, MP4, and MOV. 
 
 <!-- info-->
 <span class="pill">**Platforms:** [:fontawesome-brands-windows:](https://github.com/szTheory/exifcleaner/releases){ title="Windows" } [:material-apple:](https://github.com/szTheory/exifcleaner/releases){ title="macOS" } [:simple-linux:](https://github.com/szTheory/exifcleaner/releases){ title="Linux" }</span>
@@ -417,7 +417,7 @@ They use Bluetooth and Wi-Fi to connect two devices directly, so you can pass ph
 ### Metadata Cleaner
 
 <!-- description-->
-**Metadata Cleaner** is a one-line description of what it does and how it helps during a shutdown.
+**Metadata Cleaner** is a linux only metadata removal tool for Linux, powered by [mat2](#mat2) under the hood (so it handles the same wide range of formats). It gives mat2's cleaning power a simple point-and-click interface instead of the command line.
 
 <!-- info-->
 <span class="pill">**Platforms:** [:simple-linux:](https://flathub.org/apps/details/io.gitlab.metadatacleaner.metadatacleaner){ title="Linux" }</span>
