@@ -6,8 +6,6 @@ If you are a tool developer and think your tool should be included in this direc
 
 If you would like to help in categorising these projects, please submit a pull request to [this repo](https://github.com/stayteef/shutdown.tools).
 
-Tools in each cateogory is arrnaged in alphitical order. 
-
 ----
 
 ## Communication
