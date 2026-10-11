@@ -121,6 +121,29 @@ Deku SMS is an app that allows you to encrypt your SMS. In some cases, SMS still
 
 </div>
 
+<!-- qaul -->
+<div class="tool" markdown>
+
+<!-- LOGO-->
+![qaul logo](assets/qaul.webp){ align=right width=88 }
+
+<!-- NAME -->
+### qaul
+
+<!-- description-->
+**qaul** is an end-to-end encrypted messaging tool that works peer-to-peer over Bluetooth, local Wi-Fi, and internet overlay networks, with no internet needed. It supports public broadcast messages, chats, and file sending.
+
+<!-- info-->
+<span class="pill">**Platforms:** [:simple-android:](https://play.google.com/store/apps/details?id=net.qaul.qaul_app){ title="Android" } [:material-download-box:](https://github.com/qaul/qaul.net/releases/download/v2.0.0-rc.8/qaul-2.0.0-rc.8.apk){ title="APK" } [:simple-apple:](https://testflight.apple.com/join/Opmxb2Ym){ title="iOS" } [:fontawesome-brands-windows:](https://github.com/qaul/qaul.net/releases/download/v2.0.0-rc.8/qaul_installer_2.0.0-rc.8.exe){ title="Windows" } [:material-apple:](https://github.com/qaul/qaul.net/releases/download/v2.0.0-rc.8/macos-qaul-2.0.0-rc.8.zip){ title="macOS" } [:simple-linux:](https://snapcraft.io/qaul){ title="Linux" }</span>
+
+<span class="pill">**Open source:** :material-check:</span>
+<span class="pill">**Last Updated:** </span>
+<span class="pill" style="background: #bfdbfe; color: #1e40af;">:material-flask: In beta</span>
+
+[:octicons-globe-16: Official website](https://qaul.net/){ .md-button }
+
+
+
 <!-- Meshtastic -->
 <div class="tool" markdown>
 
